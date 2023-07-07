@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+    <bean id="planDesignController" class="cn.edu.guet.controller.PlanDesignController">
+        <property name="planDesignInfoService" ref="planDesignInfoService"></property>
+    </bean>
+
+    <bean id="planDesignInfoService" class="cn.edu.guet.service.impl.PlanDesignInfoServiceImpl"></bean>
+
+</beans>
